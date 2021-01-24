@@ -20,7 +20,7 @@ ylab("AGE")+
   scale_fill_manual(values = c("aquamarine", "dark blue","orange"), "")+
   theme_bw()
 
-
+#finished
   
   
 
