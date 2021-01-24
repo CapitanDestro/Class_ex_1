@@ -6,6 +6,13 @@ part2_prlm_df$AGE_num<-as.numeric(part2_prlm_df$AGE)
 
 #computing the mean
 part2_avg<-part2_prlm_df %>% group_by(COUNTRY) %>% summarise(int_avg = mean(AGE_num, na.rm = T))
-View(part2_avg)
 
-#We cant go on like this
+
+ggplot(part2_avg,aes(y = int_avg, x = COUNTRY)) +
+  geom_bar(stat = "identity", position = "dodge", col = "black")+
+   ylab("Average age of PMs") +
+  xlab("Country") +
+  theme_bw()+
+  theme(axis.text.x = element_blank())
+
+View(part2_avg)
