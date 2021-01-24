@@ -7,3 +7,5 @@ part2_prlm_df$AGE_num<-as.numeric(part2_prlm_df$AGE)
 #computing the mean
 part2_avg<-part2_prlm_df %>% group_by(COUNTRY) %>% summarise(int_avg = mean(AGE_num, na.rm = T))
 View(part2_avg)
+
+#hope I fixed the issue
