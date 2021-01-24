@@ -9,5 +9,5 @@ We decided to check if the average age of Parliament Members in three European C
 
 We took our data from the "Global Parliamentary Report".
 
-The project contains our R scripts, a graph folder with .mpg file of our plot, a data folder with the .xls file of the dataset, a report in .Rmd and this README file.
+The project contains our R scripts, a graph folder with .png file of our plot, a data folder with the .xls file of the dataset, a report in .Rmd and this README file.
 
