@@ -5,7 +5,7 @@ library(tidyr)
 library(tidyverse)
 
 #renaming vars for the plot
-age_cmprd<- rename(age_cmprd, "age of PMs (avg)" = "average age of PMs")
+age_cmprd<- rename(age_cmprd, "age of PMs (avg)" = "avg_age")
 age_cmprd<- rename( age_cmprd, "age of population (median)" = ppl_mdn)
 age_cmprd<- rename(age_cmprd, "difference" = diff_age)
 
@@ -19,8 +19,7 @@ age_cmprd %>%
 ylab("AGE")+
   scale_fill_manual(values = c("aquamarine", "dark blue","orange"), "")+
   theme_bw()
+  
 
-library(rio)
-  
-  
+#the end of my graph#
 
