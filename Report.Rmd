@@ -1,0 +1,30 @@
+---
+title: "Report Exercise 1"
+author: "Nicola Destro, Lorenzo Sioli, Carola Corti"
+date: "25/1/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+##Research Question
+Are National Parliaments representative of the population in relation to the age?
+
+##Hypothesis
+We wanted to see whether National parliaments were in line with the population distribution in terms of age.
+Our hypothesis was that, even with low variability, to a younger population would have corresponded a younger parliament.
+
+##Dataset
+We took our data from the "Global Parliamentary Report".
+We got .xls file containing data about several national parliaments in the world; the data included sex, age and profession of each PM.
+
+
+
+![fig 1](/Users/nicol/OneDrive/Desktop/UNIMI/Data_Access_and_Regulation/DAAR_exs/Class_ex_one/Figs/Graph_1.png)
+
+
+![fig 2](/Users/nicol/OneDrive/Desktop/UNIMI/Data_Access_and_Regulation/DAAR_exs/Class_ex_one/Figs/Graph_2.png)
+
