@@ -72,7 +72,21 @@ We plotted a bar chart showing all observations to inspect whether occurred sign
 
 ## Final findings
 As expected, this time, we saw that all of the analysed countries were very close in the average age of their representatives (between 48 and 52); with one exception, Malta.
-The mediterranean island prooved to be an meaningful outlier having  a median age of 42.2 for the population and an astonishingly low average age for the politicians, only 36.5 years old.
+The Mediterranean island proved to be a meaningful outlier having  a median age of 42.2 for the population and an astonishingly low average age for the politicians, only 36.5 years old.
+
+
+
+
+
+
+
+
+
+
+
+
+### Issue with repositories
+We worked all weekend in Nicola's repo on Github. All our scripts and files have now been moved to the course page; for this reason the history of the commits could have been lost. In that case, please check out the original repo on Nicola's profile.
 
 
 
