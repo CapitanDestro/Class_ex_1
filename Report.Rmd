@@ -11,15 +11,34 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ##Research Question
+
 Are National Parliaments representative of the population in relation to the age?
 
+
 ##Hypothesis
+
 We wanted to see whether National parliaments were in line with the population distribution in terms of age.
 Our hypothesis was that, even with low variability, to a younger population would have corresponded a younger parliament.
 
+
 ##Dataset
+
 We took our data from the "Global Parliamentary Report".
-We got .xls file containing data about several national parliaments in the world; the data included sex, age and profession of each PM.
+We got .xls file containing data about several national parliaments in the world; the data included sex, age and profession of each PM. 
+
+
+##Procedure 
+
+After we loaded the required packages, we imported the data to furtherly modify them and focus our analysis on three countries: 
+
+1) Italy
+2) Netherlands 
+3) Iceland 
+
+
+Being Italy the country with the oldest population age in Europe; the Netherlands one whose population age is close to the european median; and Iceland the youngest. 
+
+
 
 
 
