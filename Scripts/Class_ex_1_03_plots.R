@@ -15,7 +15,7 @@ age_cmprd %>%
   gather("Type", "Values",-COUNTRY) %>%
   ggplot(aes(COUNTRY, Values, fill = Type))+
   geom_bar(position = "dodge", stat = "identity")+
-  labs(title = "Comparison between PMs average age and median age of population")+
+  labs(title = "Population and PMs' age compared")+
 ylab("AGE")+
   scale_fill_manual(values = c("aquamarine", "dark blue","orange"), "")+
   theme_bw()
